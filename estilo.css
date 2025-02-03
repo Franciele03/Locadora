@@ -55,8 +55,8 @@ selector{
 */
  
 body{/*seletor de tag*/
-    background-color: #FFC107; /*muda a cor do fundo*/
-    font-family: Arial, Helvetica, sans-serif; /*muda a fonte e estilo da letra */
+    background-color: #f7f3cf; /*muda a cor do fundo*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*muda a fonte e estilo da letra */
 }
  
 #col1{/*seletor de id*/
@@ -72,11 +72,12 @@ body{/*seletor de tag*/
     margin-top: 14px; /*muda o espaçamento da margem  */
     margin-bottom: 12px;
     font-weight: bold; /*muda a fonte para negrito */
+    font-family: Verdana;
 }
  
 .texto{
     font-size: 18px;/*muda o espaçamento */
-    font-weight: bold;
+    font-family: Verdana;
     margin-bottom: 32px;
 }
  
@@ -95,24 +96,26 @@ body{/*seletor de tag*/
 .campo-texto{
     width: 100%;
     font-size: 16px;
-    color: #434343;
+    color: black;
     padding: 7px 13px;
     margin-bottom: 16px;
-    border: 1px solid #ced4da;
+    border: 1px solid #36cecc;
     border-radius: 4px;
     box-sizing: border-box;
+    
 
 }
 
 .botao-reservar{
     width: 100%;
-    background-color: #ffc107;
-    color: white;
+    background-color: #f7f3cf;
+    color: black;
     line-height: 150%;
     padding-top: 6px;
     padding-bottom: 6px;
     border: none;
     font-weight: bold;
+    font-family: Verdana;
     text-transform: uppercase;
     font-size: 16px;
     margin-top: 16px;
@@ -126,16 +129,16 @@ body{/*seletor de tag*/
 
 .oferta{
     font-size: 36px;
-    font-weight: bold;
-    color: white
+    font-weight: verdana;
+    color: black;
 }
 
 .destaque{
-    color: blue;
+    color: #36cecc;
 }
 
 texto.oferta{
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 10px;
 }
 
